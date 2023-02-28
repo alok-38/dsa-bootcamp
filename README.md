@@ -62,3 +62,4 @@ There are three types of languages
 Suppose we have ```int a = 10;```, here ```a``` is the reference variable and
 ```10``` is the object.
 ```a``` is stored in <b>stack</b> and ```10``` is stored in <b>heap</b>.
+```a```  points towards the <em>memory address</em> of ```10```   
