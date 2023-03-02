@@ -80,7 +80,7 @@ Suppose we have `int a = 10;`, here `a` is the reference variable and
   <li>When we run the program using the ```java``` command, it <em>loads the class into JVM</em> and looks for the <b>main method</b> in the class and runs it. The main function syntax should be same as specified in the program, else it won’t run and throw exception as ```Exception in thread "main" java.lang.NoSuchMethodError: main.```</li>
 </ol>
 
-## I wonder why the ```class``` keyword is used in Java
+## I wonder why the `class` keyword is used in Java
 
 Classes act as the building blocks for the entire application.
 
@@ -101,8 +101,16 @@ Software objects are conceptually similar to real-world objects: they too consis
 Encapsulation <b>protects an object from unwanted access by clients</b>. Encapsulation allows access to a level without revealing the complex details below that level. It reduces human errors. Simplifies the maintenance of the application.
 
 I found these two links useful
+
 <ul>
   <li>[What is the use of encapsulation when I'm able to change the property values with setter methods?](https://stackoverflow.com/questions/16418571/what-is-the-use-of-encapsulation-when-im-able-to-change-the-property-values-wit)</li>
   <li>[Encapsulation Vs DataHiding?](https://stackoverflow.com/questions/18980390/encapsulation-vs-datahiding?rq=1)</li>
 </ul>
 
+### What's the difference between next() and nextLine() methods from Scanner class?
+
+`next()` and `nextLine()` methods are associated with Scanner and is used for getting String inputs. Their differences are...
+
+`next()` can read the input only till the space. It can't read two words separated by space. Also, next() places the cursor in the same line after reading the input.
+
+`nextLine()` reads input including space between the words (that is, it reads till the end of line \n). Once the input is read, `nextLine()` positions the cursor in the next line.
