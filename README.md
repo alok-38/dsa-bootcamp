@@ -114,3 +114,4 @@ I found these two links useful
 `next()` can read the input only till the space. It can't read two words separated by space. Also, next() places the cursor in the same line after reading the input.
 
 `nextLine()` reads input including space between the words (that is, it reads till the end of line \n). Once the input is read, `nextLine()` positions the cursor in the next line.
+
